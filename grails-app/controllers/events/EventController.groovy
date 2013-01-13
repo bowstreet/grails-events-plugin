@@ -7,4 +7,8 @@ class EventController {
     def index() {
     	redirect action: 'list'
     }
+
+    def test(Long id) {
+    	
+    }
 }
