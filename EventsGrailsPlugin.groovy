@@ -8,6 +8,7 @@ class EventsGrailsPlugin {
     // resources that are excluded from plugin packaging
     def pluginExcludes = [
         "grails-app/conf/BootStrap.groovy",
+        "grails-app/controllers/**",
         "grails-app/views/error.gsp",
         "grails-app/views/**",
         "web-app/css/**",
