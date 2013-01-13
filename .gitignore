@@ -42,3 +42,7 @@
 # other
 *.iws
 
+
+/target-eclipse/
+*.zip.sha1
+/plugin.xml
