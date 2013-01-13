@@ -1,6 +1,6 @@
 package events
 
-abstract class Event {
+class Event {
 
 	String title
 
