@@ -7,6 +7,10 @@ class UrlMappings {
 			}
 		}
 
+		"/events"(controller:'eventAPI', action: 'list', parseRequest: true) {
+
+		}
+
 		"/"(view:"/index")
 		"500"(view:'/error')
 	}

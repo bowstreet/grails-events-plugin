@@ -4,7 +4,7 @@ class Event {
 
 	String title
 
-	Date dateCreated
+	Date created = new Date()
 
     static constraints = {
     	title blank: false
